@@ -1,0 +1,28 @@
+.HookButton {
+    padding: 6%;
+    margin: 2%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px white;
+    font-size: .7em;
+    filter: drop-shadow(5px 5px 5px black);
+    text-shadow: 1px 1px 1px white;
+}
+
+.HookButtonsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.HookButton:hover {
+    background: rgba(97, 218, 251, .8);
+    transition: ease-in-out .25s;
+    transform: scale(1.1);
+    color: white;
+    filter: drop-shadow(10px 10px 8px black);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 400;
+    border: white 1px solid;
+}

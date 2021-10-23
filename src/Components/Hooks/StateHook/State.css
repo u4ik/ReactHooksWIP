@@ -1,0 +1,83 @@
+.Pic1 {
+    width: 50%;
+    min-width: 300px;
+}
+
+.p-text {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.countButton {
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    user-select: none;
+}
+
+.countButton:hover {
+    border: 1px solid black;
+    transition: ease-in-out .3s;
+}
+
+.darkButton {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    margin-right: 5%;
+    border: 1px solid transparent;
+    margin-bottom: 3%;
+    font-size: .8em;
+    background: rgba(0, 0, 0, .4);
+    color: white;
+}
+
+.darkButton:hover {
+    border: 1px solid white;
+    transition: ease-in-out .3s;
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, .9);
+    color: white;
+}
+
+.lightButton {
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: .8em;
+    background: rgba(255, 255, 255, .4);
+}
+
+.lightButton:hover {
+    background: rgba(255, 255, 255, .9);
+    border: 1px solid black;
+    transition: ease-in-out .3s;
+    transform: scale(1.1);
+}
+
+.darkTheme {
+    background: black;
+    color: white;
+}
+
+.lightTheme {
+    background: white;
+}
+
+.copy2clipboard:hover {
+    background-color: rgba(255, 0, 0, .1);
+    filter: invert(1);
+    border-color: white;
+    transition: filter background-color .5s ease-in-out;
+}
+
+.copy2clipboard:not(:hover) {
+    transition: .5s ease-in-out;
+}
